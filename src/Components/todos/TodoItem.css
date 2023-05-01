@@ -1,0 +1,33 @@
+.listItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: var(--color-secondary-light);
+    border-radius: 10px;
+    width: 100%;
+    padding: 1.5rem;
+}
+
+.listItem p {
+    font-family: var(--font-montserrat);
+    color: var(--color-white);
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.btn-delete {
+    background-color: transparent;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.btn-delete:hover {
+    color: var(--color-seondary);
+}
+
+.completed {
+    text-decoration: line-through;
+}
