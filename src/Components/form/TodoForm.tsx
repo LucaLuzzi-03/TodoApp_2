@@ -41,7 +41,7 @@ export const TodoForm = () => {
                 type="text" 
                 name="todo"
                 id="todo"
-                placeholder='Todo'
+                placeholder='To Do'
                 value={inputValue}
                 onChange={ (e) => onHnaldeChange(e) }
             />
