@@ -16,6 +16,11 @@
     margin-bottom: 0.6rem;
 }
 
+.form-container form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .form-container form input {
     padding: 0.2rem;
     border-radius: 5px;
@@ -26,3 +31,13 @@
 .form-container .btn-create {
     margin-left: 0.4rem;
 }   
+
+@media (max-width: 310px) {
+    .form-container form {
+        gap: 0.5rem;
+    }
+
+    .form-container .btn-create {
+        margin-left: 0;
+    }
+}
